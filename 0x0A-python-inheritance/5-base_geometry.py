@@ -1,12 +1,9 @@
 #!/usr/bin/python3
 """
-Base class for Geometry
+Contains the class BaseGeometry
 """
 
 
 class BaseGeometry:
-    """
-    Base class for Geometry
-    """
-    def __init__(self):
-        pass
+    """An empty class"""
+    pass

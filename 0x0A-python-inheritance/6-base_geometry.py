@@ -1,18 +1,11 @@
 #!/usr/bin/python3
 """
-Base class for Geometry
+Contains the class BaseGeometry
 """
 
 
 class BaseGeometry:
-    """
-    Base class for Geometry
-    """
-    def __init__(self):
-        pass
-
+    """A class with public attribute area"""
     def area(self):
-        """
-        Base area function
-        """
+        """raises an exception when called"""
         raise Exception("area() is not implemented")

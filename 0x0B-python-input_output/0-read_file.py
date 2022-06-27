@@ -1,13 +1,10 @@
 #!/usr/bin/python3
 """
-Basic file reading
+Contains the read_file function
 """
 
 
 def read_file(filename=""):
-    """
-    Function to read a file and print it out
-    """
-    f = open(filename, 'r')
-    for line in f:
-        print('{}'.format(line), end='')
+    """""reads a text file(UTF8) and prints it to stdout"""
+    with open(filename, "r", encoding="utf-8") as f:
+        print(f.read(), end="")

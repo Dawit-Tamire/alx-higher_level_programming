@@ -1,1 +1,0 @@
--- print full description of first_table
