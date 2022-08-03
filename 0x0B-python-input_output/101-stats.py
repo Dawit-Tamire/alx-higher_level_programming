@@ -47,7 +47,7 @@
                          status_codes[line[-2]] = 1 
                      else: 
                          status_codes[line[-2]] += 1 
-             except (IndexError, ValueError): 
+             except IndexError: 
                  pass 
   
          print_stats(size, status_codes) 
