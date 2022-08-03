@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
             try:
                 size += int(line[-1])
-            except Exception:
+            except:
                 pass
 
             try:
@@ -47,7 +47,7 @@ if __name__ == "__main__":
                         status_codes[line[-2]] = 1
                     else:
                         status_codes[line[-2]] += 1
-            except Exception:
+            except:
                 pass
 
         print_stats(size, status_codes)
